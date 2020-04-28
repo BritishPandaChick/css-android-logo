@@ -84,6 +84,7 @@ div div {
 .l_arm, .r_arm, .l_leg, .r_leg {
     width: 50px;
     position: absolute;
+    -webkit-transition: all 0.1s ease-in;
 }
 
 .l_arm, .r_arm {
@@ -110,11 +111,11 @@ div div {
 }
 
 .l_leg {
-    left: -45px;
+    left: 45px;
 }
 
 .r_leg {
-    right: -45px;
+    right: 45px;
 }
 
 .head:hover {
